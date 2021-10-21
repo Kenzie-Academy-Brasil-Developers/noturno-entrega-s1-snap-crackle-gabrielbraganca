@@ -3,7 +3,7 @@
 
 
  function snapCrackle (maxValue){
-    let texto = "__";
+    let texto = "";
 
 for (let counter = 1; counter <= maxValue; counter++){
    
@@ -17,15 +17,13 @@ for (let counter = 1; counter <= maxValue; counter++){
     
     if(maxValue != counter){ 
         texto = texto + ",";
-    } else {
-        texto = texto + "__";
-    }
+    } ;
 }
 
 return texto
 }
 
-console.log(snapCrackle(12)) 
+console.log(snapCrackle(15)) 
 
 
 
